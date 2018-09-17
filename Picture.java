@@ -49,6 +49,30 @@ public class Picture
     private Square shipp4;
     private Square shipp5;
     private Square shipp6;
+    private Square shipp7;
+    private Square wing1;
+    private Square wing2;
+    private Square wing3;
+    private Square wing4;
+    private Square wing5;
+    private Square wing6;
+    private Square wing7;
+    private Square wing8;
+    private Square wing9;
+    private Square wing0;
+    private Square wingg1;
+    private Square wingg2;
+    private Square wingg3;
+    private Square wingg4;
+    private Square wingg5;
+    private Circle wingg6;
+    private Square wingg7;
+    private Square wingg8;
+    private Square wingg9;
+    private Square wingg0;
+    private Person star1;
+    private Person star2;
+    private Person star3;
     private Triangle roof;
     private Circle sun;
     private boolean drawn;
@@ -90,7 +114,30 @@ public class Picture
         shipp4 = new Square();
         shipp5 = new Square();
         shipp6 = new Square();
-        shipp1 = new Square();
+        shipp7 = new Square();
+        wing1 = new Square();
+        wing2 = new Square();
+        wing3 = new Square();
+        wing4 = new Square();
+        wing5 = new Square();
+        wing6 = new Square();
+        wing7 = new Square();
+        wing8 = new Square();
+        wing9 = new Square();
+        wing0 = new Square();
+        wingg1 = new Square();
+        wingg2 = new Square();
+        wingg3 = new Square();
+        wingg4 = new Square();
+        wingg5 = new Square();
+        wingg6 = new Circle();
+        wingg7 = new Square();
+        wingg8 = new Square();
+        wingg9 = new Square();
+        wingg0 = new Square();
+        star1 = new Person();
+        star2 = new Person();
+        star3 = new Person();
         roof = new Triangle();  
         sun = new Circle();
         
@@ -260,20 +307,188 @@ public class Picture
             shipp1.makeVisible();
             
             shipp2.changeColor("white");
-            shipp2.moveHorizontal(-7tksa0);
+            shipp2.moveHorizontal(-70);
             shipp2.moveVertical(170);
             shipp2.changeSize(10);
             shipp2.makeVisible();
             
-            roof.changeSize(60, 180);
-            roof.moveHorizontal(20);
+            shipp3.changeColor("white");
+            shipp3.moveHorizontal(-80);
+            shipp3.moveVertical(170);
+            shipp3.changeSize(10);
+            shipp3.makeVisible();
+            
+            shipp4.changeColor("white");
+            shipp4.moveHorizontal(-90);
+            shipp4.moveVertical(170);
+            shipp4.changeSize(10);
+            shipp4.makeVisible();
+            
+            shipp5.changeColor("white");
+            shipp5.moveHorizontal(-100);
+            shipp5.moveVertical(170);
+            shipp5.changeSize(10);
+            shipp5.makeVisible();
+            
+            shipp6.changeColor("white");
+            shipp6.moveHorizontal(-110);
+            shipp6.moveVertical(170);
+            shipp6.changeSize(10);
+            shipp6.makeVisible();
+            
+            shipp7.changeColor("white");
+            shipp7.moveHorizontal(-110);
+            shipp7.moveVertical(160);
+            shipp7.changeSize(10);
+            shipp7.makeVisible();
+            
+            wing1.changeColor("blue");
+            wing1.moveHorizontal(-110);
+            wing1.moveVertical(150);
+            wing1.changeSize(10);
+            wing1.makeVisible();
+            
+            wing2.changeColor("white");
+            wing2.moveHorizontal(-110);
+            wing2.moveVertical(140);
+            wing2.changeSize(10);
+            wing2.makeVisible();
+            
+            wing3.changeColor("white");
+            wing3.moveHorizontal(-110);
+            wing3.moveVertical(130);
+            wing3.changeSize(10);
+            wing3.makeVisible();
+            
+            wing4.changeColor("red");
+            wing4.moveHorizontal(-110);
+            wing4.moveVertical(120);
+            wing4.changeSize(10);
+            wing4.makeVisible();
+            
+            wing5.changeColor("blue");
+            wing5.moveHorizontal(-100);
+            wing5.moveVertical(140);
+            wing5.changeSize(10);
+            wing5.makeVisible();
+            
+            wing6.changeColor("white");
+            wing6.moveHorizontal(-100);
+            wing6.moveVertical(150);
+            wing6.changeSize(10);
+            wing6.makeVisible();
+            
+            wing7.changeColor("white");
+            wing7.moveHorizontal(-100);
+            wing7.moveVertical(160);
+            wing7.changeSize(10);
+            wing7.makeVisible();
+            
+            wing8.changeColor("white");
+            wing8.moveHorizontal(-120);
+            wing8.moveVertical(170);
+            wing8.changeSize(10);
+            wing8.makeVisible();
+            
+            wing9.changeColor("white");
+            wing9.moveHorizontal(-130);
+            wing9.moveVertical(170);
+            wing9.changeSize(10);
+            wing9.makeVisible();
+            
+            wing0.changeColor("white");
+            wing0.moveHorizontal(-130);
+            wing0.moveVertical(160);
+            wing0.changeSize(10);
+            wing0.makeVisible();
+            
+            wingg1.changeColor("red");
+            wingg1.moveHorizontal(-130);
+            wingg1.moveVertical(150);
+            wingg1.changeSize(10);
+            wingg1.makeVisible();
+            
+            wingg2.changeColor("red");
+            wingg2.moveHorizontal(-30);
+            wingg2.moveVertical(150);
+            wingg2.changeSize(10);
+            wingg2.makeVisible();
+            
+            wingg3.changeColor("white");
+            wingg3.moveHorizontal(-30);
+            wingg3.moveVertical(160);
+            wingg3.changeSize(10);
+            wingg3.makeVisible();
+            
+            wingg4.changeColor("white");
+            wingg4.moveHorizontal(-30);
+            wingg4.moveVertical(170);
+            wingg4.changeSize(10);
+            wingg4.makeVisible();
+            
+            wingg5.changeColor("white");
+            wingg5.moveHorizontal(-40);
+            wingg5.moveVertical(170);
+            wingg5.changeSize(10);
+            wingg5.makeVisible();
+            
+            wingg6.changeColor("yellow");
+            wingg6.moveHorizontal(-40);
+            wingg6.moveVertical(20);
+            wingg6.changeSize(5);
+            wingg6.makeVisible();
+            
+            wingg7.changeColor("blue");
+            wingg7.moveHorizontal(-180);
+            wingg7.moveVertical(110);
+            wingg7.changeSize(5);
+            wingg7.makeVisible();
+            
+            wingg8.changeColor("magenta");
+            wingg8.moveHorizontal(-190);
+            wingg8.moveVertical(10);
+            wingg8.changeSize(5);
+            wingg8.makeVisible();
+            
+            wingg9.changeColor("white");
+            wingg9.moveHorizontal(-10);
+            wingg9.moveVertical(40);
+            wingg9.changeSize(5);
+            wingg9.makeVisible();
+            
+            wingg0.changeColor("white");
+            wingg0.moveHorizontal(-100);
+            wingg0.moveVertical(10);
+            wingg0.changeSize(5);
+            wingg0.makeVisible();
+            
+            star1.changeColor("white");
+            star1.moveHorizontal(0);
+            star1.moveVertical(10);
+            star1.changeSize(5,5);
+            star1.makeVisible();
+            
+            star2.changeColor("white");
+            star2.moveHorizontal(40);
+            star2.moveVertical(-185);
+            star2.changeSize(5,5);
+            star2.makeVisible();
+            
+            star3.changeColor("white");
+            star3.moveHorizontal(-90);
+            star3.moveVertical(70);
+            star3.changeSize(5,5);
+            star3.makeVisible();
+            
+            roof.changeSize(15, 10);
+            roof.moveHorizontal(-120);
             roof.moveVertical(-60);
             roof.makeVisible();
     
             sun.changeColor("yellow");
             sun.moveHorizontal(100);
             sun.moveVertical(-40);
-            sun.changeSize(80);
+            sun.changeSize(10);
             sun.makeVisible();
             drawn = true;
         }
@@ -316,6 +531,17 @@ public class Picture
         shipp4.changeColor("white");
         shipp5.changeColor("white");
         shipp6.changeColor("white");
+        shipp7.changeColor("white");
+        wing1.changeColor("white");
+        wing2.changeColor("white");
+        wing3.changeColor("white");
+        wing4.changeColor("white");
+        wing5.changeColor("white");
+        wing6.changeColor("white");
+        wing7.changeColor("white");
+        wing8.changeColor("white");
+        wing9.changeColor("white");
+        wing0.changeColor("white");
         roof.changeColor("black");
         sun.changeColor("black");
     }
@@ -357,6 +583,17 @@ public class Picture
         shipp4.changeColor("white");
         shipp5.changeColor("white");
         shipp6.changeColor("white");
+        shipp7.changeColor("white");
+        wing1.changeColor("white");
+        wing2.changeColor("white");
+        wing3.changeColor("white");
+        wing4.changeColor("white");
+        wing5.changeColor("white");
+        wing6.changeColor("white");
+        wing7.changeColor("white");
+        wing8.changeColor("white");
+        wing9.changeColor("white");
+        wing0.changeColor("white");
         roof.changeColor("green");
         sun.changeColor("yellow");
     }
